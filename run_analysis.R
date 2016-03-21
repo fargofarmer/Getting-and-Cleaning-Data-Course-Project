@@ -1,7 +1,3 @@
-library(dplyr)
-library(data.table)
-library(tidyr)
-
 
 filep<-"C:/Users/turla/OneDrive/Documents/Getting and Cleaning data/course project/UCI HAR Dataset"
 # Reading files
