@@ -62,7 +62,7 @@ names(dataTable)<-gsub("BodyBody", "Body", names(dataTable))
 head(str(dataTable),6)
 
 ##Putting all data in a new table
-write.table(dataTable, "tidy_Data.csv", row.name=FALSE)
-new_datatable<-read.csv("tidy_Data.csv")
+write.table(dataTable, "TidyData.txt", row.name=FALSE)
+
 
 
